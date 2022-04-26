@@ -1,3 +1,14 @@
 .wow {
   width: 100px;
+  
+}
+
+/* Estilos menu */
+.container-menu {
+    display: inline-block;
+    float: right;
+}
+
+.separador {
+    display: inline;
 }
