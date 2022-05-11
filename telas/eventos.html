@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+  <header>
+    <object data="/componentes/menu.html" width="100%" height="65px"></object>
+    <div>
+      <img id="logo_ifsp" src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true"
+        alt="logo ifsp" />
+    </div>
+  </header>
+
+  <main>
+    <h1>Inscreva-se</h1>
+    <form method="post">
+      <fieldset>
+        <label for="evento">Evento</label>
+        <select name="assunto" id="contatoAssunto" required>
+          <option value>--selecione--</option>
+          <option value="voe">Voe Sem Asas</option>
+          <option value="jun">Festa Junina</option>
+          <option value="semanaTec">Semana de Tecnologia</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Informações de Acesso</legend>
+        <label for="inscricao-usuario">Usuário</label>
+        <input type="text" name="usuário" id="nome_usuario"> <br>
+        <br> <label for="senha_usuário">Senha</label>
+        <input type="password" name="senha" id="senhaUser"> <br>
+        <br> <label for="confirmacaosenha">Confirmar Senha</label>
+        <input type="password" name="confimsenha" id="confirmarsenha">
+        <br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nomeComp">Nome Completo</label>
+        <input type="text" name="nome" id="nomecompleto"> <br>
+        <br> <label for="email">Email</label>
+        <input type="email" name="emailusuario" id="useremail"> <br>
+        <br> <label for="celular">Celular</label>
+        <input type="text" name="celular" id="celularUser"> (99) 99999-9999
+        <fieldset>
+          <legend>Sexo</legend>
+          <input type="radio" value="feminino" name="genero" /> Feminino
+          <input type="radio" value="masculino" name="genero" /> Masculino
+        </fieldset>
+        <br> <label for="datanasc">Data de Nascimento</label>
+        <input type="date" name="datanascimento" id="nascimento"> <br>
+        <br> <label for="cor">Cor Favorita</label>
+        <input type="color" name="cor" id="corfav">
+        <br>
+        <br> <label for="pergilGit">Perfil no Github</label>
+        <input type="url" name="perfilgithub" id="giturl">
+      </fieldset>
+
+      <p>
+        <button type="submit">Inscrever</button>
+        <button type="reset">Limpar</button>
+      </p>
+  </main>
+  <footer>
+    <br>
+    <br>
+    <div>
+      <a href="https://www.facebook.com/ifsppirituba" target=_blank>
+        <img src="https://github.com/pwe-redes/pwe_imagens/blob/master/facebook.png?raw=true" width=50 height=50
+          alt="ícone facebook" />
+      </a>
+    </div>
+    <p> IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100 </p>
+  </footer>
+
+
+
+  </form>
+
+
+</body>
+
+</html>
