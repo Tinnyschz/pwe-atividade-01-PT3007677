@@ -18,7 +18,7 @@
   <main>
     <h1>Inscreva-se</h1>
     <form method="post">
-      <fieldset>
+      <fieldset class="evento">
         <label for="evento">Evento</label>
         <select name="assunto" id="contatoAssunto" required>
           <option value>--selecione--</option>
@@ -27,6 +27,7 @@
           <option value="semanaTec">Semana de Tecnologia</option>
         </select>
       </fieldset>
+      
       <fieldset>
         <legend>Informações de Acesso</legend>
         <label for="inscricao-usuario">Usuário</label>
@@ -51,6 +52,7 @@
           <input type="radio" value="feminino" name="genero" /> Feminino
           <input type="radio" value="masculino" name="genero" /> Masculino
         </fieldset>
+        
         <br> <label for="datanasc">Data de Nascimento</label>
         <input type="date" name="datanascimento" id="nascimento"> <br>
         <br> <label for="cor">Cor Favorita</label>

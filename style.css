@@ -12,3 +12,54 @@
 .separador {
     display: inline;
 }
+
+/*index*/
+.central {
+  text-align: center;
+}
+
+.borda_pont {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: blue;
+}
+
+#sejararo {
+  border-radius: 50%;
+}
+
+/*login*/
+
+.login {
+  border-radius: 5px;
+  background-color: #ededed;
+  padding: 20px;
+}
+
+#loginuser {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.botaoenviar {
+  width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*eventos*/
+
+.eventos {
+
+}
+  
