@@ -13,6 +13,10 @@
     display: inline;
 }
 
+.espacamento {
+  margin-top: 5%;
+}
+
 /*index*/
 .central {
   text-align: center;
@@ -46,6 +50,8 @@
   box-sizing: border-box;
 }
 
+/*botão*/
+
 .botaoenviar {
   width: 100%;
     background-color: #4CAF50;
@@ -57,9 +63,33 @@
     cursor: pointer;
 }
 
-/*eventos*/
-
-.eventos {
-
+button:hover {
+  background: rgb(61, 148, 46);
 }
+
+
+/*formulários*/
+
+.caixaformulario {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.selecionarformulario {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
   

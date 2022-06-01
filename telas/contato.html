@@ -2,33 +2,29 @@
 <html>
 
 <head>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 
 <body>
   <header>
     <object data="/componentes/menu.html" width="100%" height="65px"></object>
-    <div>
-      <img id="logo_ifsp" src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true"
-        alt="logo ifsp" />
-    </div>
   </header>
 
   <main>
-    <h1>Mande uma Mensagem</h1>
+    <h1 class="espacamento">Mande uma Mensagem</h1>
     <form>
       <ul>
-        <li>Nome <input type="text" name="nome" id="nomepess" </li>
-        <li>Email <input type="email" name="emailpess" id="emailcontato" </li>
-        <li>Telefone <input type="text" name="numero" id="numerocontato" </li> (99) 99999-9999
-        <li>Assunto <select name="assunto" id="contatoAssunto" required>
-            <option value>--selecione--</option>
+        <li>Nome<br> <input type="text" name="nome" id="nomepess" class="caixaformulario" </li>
+        <li>Email<br> <input type="email" name="emailpess" id="emailcontato" class="caixaformulario" </li>
+        <li>Telefone: (99) 99999-9999 <input type="text" name="numero" id="numerocontato" class="caixaformulario" </li>
+        <li>Assunto <select name="assunto" id="contatoAssunto" class="selecionarformulario" required>
+            <option value>--Selecione--</option>
             <option value="reclam">Reclamação</option>
             <option value="sugest">Sugestão</option>
           </select>
         </li>
-        <li>Mensagem <textarea> </textarea> </li>
+        <li>Mensagem <textarea class="caixaformulario"> </textarea> </li>
         <li>
           <fieldset>
             <legend>Opções de Resposta</legend>
@@ -37,7 +33,7 @@
             <br>
           </fieldset>
           <p>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="botaoenviar">Enviar</button>
           </p>
       </ul>
 
